@@ -1,0 +1,45 @@
+
+.home {
+  height: 100%;
+  background-color: black;
+  display: flex;
+  flex-flow: column;
+}
+
+.home main {
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.home main p {
+  color: white;
+  font-family: 'Megrim', cursive;
+  font-size: 40px;
+}
+
+.home main a {
+  color: white;
+  text-decoration: none;
+}
+
+.home main a:hover {
+  color: grey;
+}
+
+.proyects {
+  margin-left: 870px;
+  margin-top: 90px;
+}
+
+.contact {
+  margin-left: 280px;
+  margin-top: 175px;
+}
+
+.about-me {
+  margin-left: 670px;
+  margin-top: 190px;
+}
