@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1cad76a2.chunk.css",
+    "main.js": "/static/js/main.2e3aa012.chunk.js",
+    "main.js.map": "/static/js/main.2e3aa012.chunk.js.map",
+    "runtime~main.js": "/static/js/runtime~main.a8a9905a.js",
+    "runtime~main.js.map": "/static/js/runtime~main.a8a9905a.js.map",
+    "static/js/2.98dcc9dd.chunk.js": "/static/js/2.98dcc9dd.chunk.js",
+    "static/js/2.98dcc9dd.chunk.js.map": "/static/js/2.98dcc9dd.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.fe68dac07d10967b84425507b12efee1.js": "/precache-manifest.fe68dac07d10967b84425507b12efee1.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.1cad76a2.chunk.css.map": "/static/css/main.1cad76a2.chunk.css.map",
+    "static/media/background.svg": "/static/media/background.145aaa8e.svg",
+    "static/media/logo-bco-jeu.png": "/static/media/logo-bco-jeu.8687e480.png"
+  }
+}
