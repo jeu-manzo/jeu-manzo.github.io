@@ -4,7 +4,7 @@ import React, {Component} from 'react';
 class Navbar extends Component {
 
   call = () => {
-    alert("Hola")
+    alert("3312782450")
   }
 
   render () {
