@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import logo from '../images/logo-bco-jeu.png'
-import background from '../images/background.svg'
+import background from '../images/image-background2.svg'
 
 
 class Image extends Component {

@@ -43,3 +43,9 @@
   margin-left: 670px;
   margin-top: 190px;
 }
+
+
+.image svg {
+  display: flex;
+  justify-content: flex-end;
+}
