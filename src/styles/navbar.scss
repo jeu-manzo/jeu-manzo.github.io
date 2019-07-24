@@ -1,39 +1,52 @@
 .navbar {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
 }
 
-.navbar p {
+.navbar-options a {
   font-family: 'Megrim', cursive;
-  color: white;
-  font-size: 30px;
-  margin-right: 10px;
-  align-self: center;
+  color: #f9f5f1;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.navbar-options a:hover{
+  border-bottom: 1px solid #f9f5f1;
+  padding-bottom: 5px;
+}
+
+.navbar-options{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+}
+
+.navbar-contact {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
 
 
-
+//Phone animation
 .Phone {
   position: relative;
   display: block;
   margin: 0;
-  margin-right: 10px;
   width: 1em;
   height: 1em;
-  font-size: 10vmin;
+  font-size: 7vmin;
   background-color: black;
   border-radius: 0.5em;
   border-color: black;
   box-shadow:
-    0 0 0 0em rgba(#3498db, 0),
-    0em 0.05em 0.1em rgba(#000000, 0.2);
+    0 0 0 0em rgba(#f9f5f1, 0),
+    0em 0.05em 0.1em rgba(#f9f5f1, 0.2);
   transform: translate3d(0, 0, 0) scale(1);
   outline: none;
 }
 
-.Pone:hover {
-  color: red;
-}
 
 .Phone::before,
 .Phone::after {
@@ -46,7 +59,7 @@
   left: 0;
   width: 1em;
   height: 1em;
-  background-color: rgba(#fff, 0.1);
+  background-color: rgba(#f9f5f1, 0.1);
   border-radius: 100%;
   opacity: 1;
   transform: translate3d(0, 0, 0) scale(0);
@@ -61,6 +74,7 @@
   background-position: 50% 50%;
   background-repeat: no-repeat;
   background-size: cover;
+  color: blue;
   transform: translate3d(0, 0, 0);
 }
 
@@ -80,7 +94,7 @@
   0% {
     transform: translate3d(0, 0, 0) scale(1);
     box-shadow:
-      0 0 0 0em rgba(#3498db, 0),
+      0 0 0 0em rgba(#f9f5f1, 0),
       0em 0.05em 0.1em rgba(#000000, 0.2);
   }
   33.3333% {

@@ -4,48 +4,36 @@
   background-color: black;
   display: flex;
   flex-flow: column;
+  align-items: center;
 }
 
 .home main {
   display: flex;
   flex-flow: column;
   align-items: center;
-  justify-content: center;
-  height: 100%;
-}
-
-.home main p {
-  color: white;
-  font-family: 'Megrim', cursive;
-  font-size: 40px;
-}
-
-.home main a {
-  color: white;
-  text-decoration: none;
-}
-
-.home main a:hover {
-  color: grey;
-}
-
-.proyects {
-  margin-left: 870px;
-  margin-top: 90px;
-}
-
-.contact {
-  margin-left: 280px;
-  margin-top: 175px;
-}
-
-.about-me {
-  margin-left: 670px;
-  margin-top: 190px;
 }
 
 
-.image svg {
-  display: flex;
-  justify-content: flex-end;
+
+/*
+name */
+
+.name-jeu {
+  width: 600px;
+  height: 400px;
+  fill: #f9f5f1;
 }
+
+
+/* .name-jeu path{
+  fill: none;
+  stroke: #f9f5f1;
+  stroke-dasharray:1646;
+  animation: write-the-text 10s linear;
+}
+
+@keyframes write-the-text {
+  0% { stroke-dashoffset:1646; }
+  20% { stroke-dashoffset:1646; }
+
+} */

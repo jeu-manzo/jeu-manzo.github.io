@@ -1,6 +1,10 @@
 import React, {Component} from 'react';
 import Navbar from './Navbar';
-import Image from './Image';
+import AboutMe from './AboutMe'
+// import Image from './Image';
+// import name from '../images/nueva.svg'
+import { ReactComponent as Name } from '../images/jeuManzo.svg';
+
 
 class Home extends Component {
   render () {
@@ -10,7 +14,8 @@ class Home extends Component {
           <Navbar />
         </header>
         <main>
-          <Image />
+          <Name/>
+          <AboutMe/>
         </main>
       </div>
     )

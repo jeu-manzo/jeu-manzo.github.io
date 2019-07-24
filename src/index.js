@@ -7,6 +7,8 @@ import * as serviceWorker from './serviceWorker';
 import './styles/index.css'
 import './styles/home.css'
 import './styles/navbar.scss'
+import './styles/aboutMe.css'
+
 
 ReactDOM.render(<Home />, document.getElementById('root'));
 

@@ -4,14 +4,20 @@ import React, {Component} from 'react';
 class Navbar extends Component {
 
   call = () => {
-    alert("3312782450")
+    window.open('tel:3312782450');
   }
 
   render () {
     return (
       <div className="navbar">
-        <p>Jeu Manzo</p>
-        <button className="Phone is-animating" onClick={this.call}></button>
+        <section className="navbar-options">
+          <a href="#home">Sobre Mí</a>
+          <a href="#home">Portafolio</a>
+          <section className="navbar-contact">
+            <a href="#home">Contacto</a>
+            <button className="Phone is-animating" onClick={this.call}></button>
+          </section>
+        </section>
       </div>
     )
   }
