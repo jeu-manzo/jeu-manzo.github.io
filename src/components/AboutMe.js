@@ -5,8 +5,12 @@ class AboutMe extends Component {
   render () {
     return (
       <section className="about-me">
-        <h1>Sobre Mí</h1>
-        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+        <p>
+          Hola soy Jeu, desarrolladora front-end viviendo en Guadalajara,
+          soy autodidacta y muy apasionada en estar en constante aprendizaje,
+          Siempre voy a tener la determinación de enfrentarme a cualquier
+          reto que se me presente.
+        </p>
       </section>
     )
   }

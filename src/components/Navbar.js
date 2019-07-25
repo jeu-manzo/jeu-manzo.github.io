@@ -11,10 +11,10 @@ class Navbar extends Component {
     return (
       <div className="navbar">
         <section className="navbar-options">
-          <a href="#home">Sobre Mí</a>
-          <a href="#home">Portafolio</a>
+          <a href="#home">SOBRE MÍ</a>
+          <a href="#home">PORTAFOLIO</a>
           <section className="navbar-contact">
-            <a href="#home">Contacto</a>
+            <a href="#home">CONTACTO</a>
             <button className="Phone is-animating" onClick={this.call}></button>
           </section>
         </section>
