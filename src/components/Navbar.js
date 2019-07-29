@@ -1,8 +1,8 @@
 import React, {Component} from 'react';
 
 
-class Navbar extends Component {
 
+class Navbar extends Component {
   call = () => {
     window.open('tel:3312782450');
   }
@@ -10,14 +10,18 @@ class Navbar extends Component {
   render () {
     return (
       <div className="navbar">
-        <section className="navbar-options">
-          <a href="#home">SOBRE MÍ</a>
-          <a href="#home">PORTAFOLIO</a>
           <section className="navbar-contact">
-            <a href="#home">CONTACTO</a>
+            <button onClick={this.props.onClickEng}>English</button>
+            <button onClick={this.props.onClickEsp}>Español</button>
+          </section>
+          <section className="navbar-phone">
+            <a href="#home">{this.props.labelAboutMe}</a>
+            <a href="#home">{this.props.labelPorfolio}</a>
+            <a href="#home">{this.props.labelContact}</a>
+          </section>
+          <section className="navbar-main">
             <button className="Phone is-animating" onClick={this.call}></button>
           </section>
-        </section>
       </div>
     )
   }

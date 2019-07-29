@@ -15,7 +15,6 @@
 }
 
 
-
 /*
 name */
 
@@ -24,17 +23,3 @@ name */
   height: 400px;
   fill: #f9f5f1;
 }
-
-
-/* .name-jeu path{
-  fill: none;
-  stroke: #f9f5f1;
-  stroke-dasharray:1646;
-  animation: write-the-text 10s linear;
-}
-
-@keyframes write-the-text {
-  0% { stroke-dashoffset:1646; }
-  20% { stroke-dashoffset:1646; }
-
-} */

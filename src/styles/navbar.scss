@@ -1,32 +1,29 @@
 .navbar {
+  width: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
 }
 
-.navbar-options a {
+.navbar-phone a {
   font-family: 'Lato', sans-serif;
   color: #f9f5f1;
   font-size: 15px;
   text-decoration: none;
 }
 
-.navbar-options a:hover{
+.navbar-phone a:hover{
   border-bottom: 1px solid #f9f5f1;
   padding-bottom: 5px;
 }
 
-.navbar-options{
+.navbar-phone{
   display: flex;
   justify-content: space-between;
   align-items: center;
   width: 400px;
 }
 
-.navbar-contact {
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-}
+
 
 
 //Phone animation
