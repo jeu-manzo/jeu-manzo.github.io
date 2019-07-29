@@ -16,7 +16,7 @@ class Navbar extends Component {
           </section>
           <section className="navbar-phone">
             <a href="#home">{this.props.labelAboutMe}</a>
-            <a href="#home">{this.props.labelPorfolio}</a>
+            <a href="#home">{this.props.labelProjects}</a>
             <a href="#home">{this.props.labelContact}</a>
           </section>
           <section className="navbar-main">

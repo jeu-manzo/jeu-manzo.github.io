@@ -4,10 +4,11 @@ import Home from './components/Home';
 import * as serviceWorker from './serviceWorker';
 
 //styles
-import './styles/index.css'
-import './styles/home.css'
-import './styles/navbar.scss'
-import './styles/aboutMe.css'
+import './styles/index.css';
+import './styles/home.css';
+import './styles/navbar.scss';
+import './styles/aboutMe.css';
+import './styles/projects.css';
 
 
 ReactDOM.render(<Home />, document.getElementById('root'));

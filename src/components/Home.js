@@ -1,7 +1,8 @@
 import React, {Component} from 'react';
 import Navbar from './Navbar';
 import AboutMe from './AboutMe';
-import data from '../content/data.js'
+import Projects from './Projects';
+import data from '../content/data.js';
 
 // import Image from './Image';
 // import name from '../images/nueva.svg'
@@ -13,7 +14,7 @@ class Home extends Component {
     this.state = {
       aboutMe: <AboutMe text={data[0].content}/>,
       navAboutMe: "Sobre mí",
-      navPortfolio: "Portafolio",
+      navProjects: "Proyectos",
       navContact: "Contacto",
     };
   }
@@ -21,14 +22,14 @@ class Home extends Component {
   contentToSpanish = () => {
     this.setState({ aboutMe: <AboutMe text={data[0].content}/> });
     this.setState({ navAboutMe: "Sobre mí"});
-    this.setState({ navPortfolio: "Portafolio"});
+    this.setState({ navProjects: "Proyectos"});
     this.setState({ navContact: "Contacto"});
   }
 
   contentToEnglish = () => {
     this.setState({ aboutMe: <AboutMe text={data[1].content}/> });
     this.setState({ navAboutMe: "About Me"});
-    this.setState({ navPortfolio: "Portfolio"});
+    this.setState({ navProjects: "Projects"});
     this.setState({ navContact: "Contact"});
 
   }
@@ -40,13 +41,13 @@ class Home extends Component {
           onClickEng={this.contentToEnglish}
           onClickEsp={this.contentToSpanish}
           labelAboutMe={this.state.navAboutMe}
-          labelPorfolio={this.state.navPortfolio}
+          labelProjects={this.state.navProjects}
           labelContact={this.state.navContact}
         />
         <main>
           <Name/>
           {this.state.aboutMe}
-          
+          <Projects/>
         </main>
       </div>
     )
