@@ -45,7 +45,8 @@ class Home extends Component {
         />
         <main>
           <Name/>
-          <AboutMe text={this.state.aboutMe}/>
+          {this.state.aboutMe}
+          
         </main>
       </div>
     )

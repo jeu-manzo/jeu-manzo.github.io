@@ -4,9 +4,11 @@ class AboutMe extends Component {
 
   render () {
     return (
-      <p className="about-me">
+      <section className="about-me">
+      <p>
         {this.props.text}
       </p>
+      </section>
     )
   }
 };
