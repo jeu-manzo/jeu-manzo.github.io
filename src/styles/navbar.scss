@@ -4,26 +4,60 @@
   justify-content: space-between;
 }
 
-.navbar-phone a {
+.navbar-language {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.navbar-language button {
+  background-color: #f9f5f1;
+  color: black;
+  width: 80px;
+  height: 30px;
+  border-radius: 5px;
+  font-size: 15px;
+  padding: 5px;
+  margin: 10px;
+}
+
+.navbar-language button:hover {
+  background-color: black;
+  color: #f9f5f1;
+}
+
+.navbar-language button:focus {
+  outline: none;
+  background-color: #292929;
+  color: #f9f5f1;
+}
+
+
+
+.navbar-menu a {
   font-family: 'Lato', sans-serif;
   color: #f9f5f1;
-  font-size: 15px;
+  font-size: 20px;
   text-decoration: none;
 }
 
-.navbar-phone a:hover{
+.navbar-menu a:hover{
   border-bottom: 1px solid #f9f5f1;
   padding-bottom: 5px;
 }
 
-.navbar-phone{
+.navbar-menu {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 400px;
+  width: 100%;
 }
 
-
+.navbar-contact {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+}
 
 
 //Phone animation

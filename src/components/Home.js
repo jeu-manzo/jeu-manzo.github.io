@@ -3,10 +3,7 @@ import Navbar from './Navbar';
 import AboutMe from './AboutMe';
 import Projects from './Projects';
 import data from '../content/data.js';
-
-// import Image from './Image';
-// import name from '../images/nueva.svg'
-import { ReactComponent as Name } from '../images/jeuManzo.svg';
+import name from '../images/jeu3.svg';
 
 class Home extends Component {
   constructor(props) {
@@ -45,7 +42,7 @@ class Home extends Component {
           labelContact={this.state.navContact}
         />
         <main>
-          <Name/>
+          <img className="name-jeu" src={name} alt="" />
           {this.state.aboutMe}
           <Projects/>
         </main>
