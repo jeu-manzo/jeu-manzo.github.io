@@ -15,7 +15,7 @@ const data = [
         technologies: ["Javascript", "Dialogflow", "Twilio", "node.js"]
       },
       {
-        title: "API frutas-verduras",
+        title: "frutas-verduras",
         content: "API con conexión a base de datos de frutas y verduras, incluy autenticación con token.",
         technologies: ["Javascript", "MongoDB", "mongoose", "Express", "node.js", "heroku"]
       },
@@ -37,7 +37,7 @@ const data = [
         technologies: ["Javascript", "Dialogflow", "Twilio", "node.js"]
       },
       {
-        title: "API fruits-veggies",
+        title: "fruits-veggies",
         content: "API con conexión a base de datos de frutas y verduras, incluy autenticación con token.",
         technologies: ["Javascript", "MongoDB", "mongoose", "Express", "node.js", "heroku"]
       },

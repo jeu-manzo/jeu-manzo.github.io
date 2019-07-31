@@ -8,11 +8,19 @@
 }
 
 .project-container {
-  margin: 40px 0px;
+  margin: 40px 60px;
   font-family: 'Kanit', sans-serif;
   text-transform: uppercase;
 }
 
+.project-container:nth-child(odd)
+{
+    align-self: flex-end;
+}
+.project-container:nth-child(even)
+{
+    align-self: flex-start;
+}
 /* .project-container:hover {
   background-color: blue;
 } */
