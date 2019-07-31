@@ -4,6 +4,8 @@ import AboutMe from './AboutMe';
 import Projects from './Projects';
 import data from '../content/data.js';
 import name from '../images/jeu3.svg';
+import functions from '../content/functionsDB.js'
+
 
 class Home extends Component {
   constructor(props) {
@@ -13,6 +15,8 @@ class Home extends Component {
       navAboutMe: "Sobre mí",
       navProjects: "Proyectos",
       navContact: "Contacto",
+      titleProjects: functions.titlesSpanish,
+      technologyProjects: functions.projectsSpanish,
     };
   }
 
@@ -21,6 +25,7 @@ class Home extends Component {
     this.setState({ navAboutMe: "Sobre mí"});
     this.setState({ navProjects: "Proyectos"});
     this.setState({ navContact: "Contacto"});
+    this.setState({ titleProjects: functions.titlesSpanish});
   }
 
   contentToEnglish = () => {
@@ -28,6 +33,7 @@ class Home extends Component {
     this.setState({ navAboutMe: "About Me"});
     this.setState({ navProjects: "Projects"});
     this.setState({ navContact: "Contact"});
+    this.setState({ titleProjects: functions.titlesEnglish});
 
   }
 
@@ -44,7 +50,10 @@ class Home extends Component {
         <main>
           <img className="name-jeu" src={name} alt="" />
           {this.state.aboutMe}
-          <Projects/>
+          <Projects
+            title={this.state.titleProjects}
+            technology={this.state.technologyProjects}
+          />
         </main>
       </div>
     )

@@ -1,5 +1,39 @@
 .projects {
+  display: flex;
+  flex-flow: column;
+  justify-content: space-around;
+  align-items: center;
   width: 100%;
   background-color: black;
+}
+
+.project-container {
+  margin: 40px 0px;
+  font-family: 'Kanit', sans-serif;
+  text-transform: uppercase;
+}
+
+/* .project-container:hover {
+  background-color: blue;
+} */
+
+.project-container header {
   color: #f9f5f1;
+  font-size: 110px;
+  text-align: center;
+}
+
+.project-container article {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+
+
+.project-container span {
+  list-style: none;
+  color: #ee7673;
+  font-size: 20px;
+  margin: 5px 0px;
 }

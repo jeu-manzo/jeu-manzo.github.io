@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import functions from '../content/functionsDB.js'
 
 class Projects extends Component{
 
@@ -7,8 +6,17 @@ class Projects extends Component{
     return (
       <section className="projects">
         {
-          functions.titlesSpanish.map((title, index) => (
-            <header key={index}>{title}</header>
+          this.props.title.map((title, index) => (
+            <div className="project-container" key={index}>
+              <header>{title}</header>
+              <article>
+                {
+                  this.props.technology[index].technologies.map((technology, index) => (
+                    <span key={index}>{technology}</span>
+                  ))
+                }
+              </article>
+            </div>
           ))
         }
       </section>

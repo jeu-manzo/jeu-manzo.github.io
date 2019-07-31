@@ -10,9 +10,14 @@ const data = [
   {
     projectsSpanish: [
       {
-        title: "Chatbot - API",
-        content: "Chatbot por medio de WhatsApp para solicitar frutas y verduras, sus precios e informes, consumiendo propia API con base de datos.",
-        technologies: ["Javascript", "Dialogflow", "Twilio", "MongoDB", "Express", "node.js", "mongoose"]
+        title: "Chatbot",
+        content: "Chatbot por medio de WhatsApp para solicitar frutas y verduras, sus precios e informes",
+        technologies: ["Javascript", "Dialogflow", "Twilio", "node.js"]
+      },
+      {
+        title: "API frutas-verduras",
+        content: "API con conexión a base de datos de frutas y verduras, incluy autenticación con token.",
+        technologies: ["Javascript", "MongoDB", "mongoose", "Express", "node.js", "heroku"]
       },
       {
         title: "MD-Links",
@@ -20,16 +25,21 @@ const data = [
         technologies: ["node.js", "Jest", "TDD", "Diagramas de Flujo"]
       },
       {
-        title: "Red Social Veganet ",
+        title: "Veganet ",
         content: "Aplicación web dirigida a personas que tienen gusto por la comida vegana/vegetariana, en la cual pueden publicar y buscar productos específicos de este estilo de vida.",
         technologies: ["React", "Firebase", "react-router", "Figma"]
       },
     ],
     projectsEnglish: [
       {
-        title: "Chatbot - API",
-        content: "Chatbot por medio de WhatsApp para solicitar frutas y verduras, sus precios e informes, consumiendo propia API con base de datos.",
-        technologies: ["Javascript", "Dialogflow", "Twilio", "MongoDB", "Express", "node.js", "mongoose"]
+        title: "Chatbot",
+        content: "Chatbot por medio de WhatsApp para solicitar frutas y verduras, sus precios e informes",
+        technologies: ["Javascript", "Dialogflow", "Twilio", "node.js"]
+      },
+      {
+        title: "API fruits-veggies",
+        content: "API con conexión a base de datos de frutas y verduras, incluy autenticación con token.",
+        technologies: ["Javascript", "MongoDB", "mongoose", "Express", "node.js", "heroku"]
       },
       {
         title: "MD-Links",
@@ -37,7 +47,7 @@ const data = [
         technologies: ["node.js", "Jest", "TDD", "Diagramas de Flujo"]
       },
       {
-        title: "Social Network Veganet ",
+        title: "Veganet ",
         content: "Aplicación web dirigida a personas que tienen gusto por la comida vegana/vegetariana, en la cual pueden publicar y buscar productos específicos de este estilo de vida.",
         technologies: ["React", "Firebase", "react-router", "Figma"]
       },
